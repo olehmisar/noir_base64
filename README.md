@@ -55,5 +55,5 @@ fn encode_and_decode() {
 
 ## Costs
 
-- `encode` will encode an array of 88 bytes in ~1182 gates, plus a ~64 gate cost to initialize the encoding lookup table (the initialization cost is incurred once regardless of the number of encodings).
-- `decode` will decode an array of 118 bytes in ~2150 gates, plus a ~256 gate cost to initialize the decoding lookup table (the initialization cost is incurred once regardless of the number of decodings).
+- `encode` will encode an array of 88 bytes in ~3600 gates, plus a ~128 gate cost to initialize the encoding lookup table (the initialization cost is incurred once regardless of the number of encodings).
+- `decode` will decode an array of 118 bytes in ~1950 gates, plus a ~512 gate cost to initialize the decoding lookup table (the initialization cost is incurred once regardless of the number of decodings).
